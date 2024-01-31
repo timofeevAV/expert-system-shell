@@ -1,5 +1,6 @@
 import { MainMenu } from "../menus";
 import { MainTabs } from "../tabs";
+import { ThemeSwitcher } from "../switchers/ThemeSwitcher";
 
 const MainNavBar = () => {
   return (
@@ -8,6 +9,7 @@ const MainNavBar = () => {
       <nav>
         <MainTabs/>
       </nav>
+      <ThemeSwitcher/>
     </header>
   );
 };
